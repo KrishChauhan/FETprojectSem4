@@ -1,0 +1,22 @@
+<h2>Add Document</h2>
+    <form>
+      <label for="employee-name">Employee Name:</label>
+      <input type="text" id="employee-name" name="employeeName" [(ngModel)]="employeeName" required>
+
+      <label for="employee-id">Employee ID:</label>
+      <input type="text" id="employee-id" name="employeeId" [(ngModel)]="employeeId" required>
+
+      <label for="department">Department:</label>
+      <input type="text" id="department" name="department" [(ngModel)]="department" required>
+
+      <label for="document-name">Document Name:</label>
+      <input type="text" id="document-name" name="documentName" [(ngModel)]="documentName" required>
+
+      <label for="document-id">Document ID:</label>
+      <input type="text" id="document-id" name="documentId" [(ngModel)]="documentId" required>
+
+      <label for="document-link">Document Link:</label>
+      <input type="text" id="document-link" name="documentLink" [(ngModel)]="documentLink" required>
+
+      <button type="submit" (click)="submitForm()">Submit</button>
+    </form>
